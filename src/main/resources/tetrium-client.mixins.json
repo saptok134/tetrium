@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.tetrium.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MixinWorldRenderer",
+    "MixinCamera",
+    "MixinParticleManager",
+    "MixinGameRenderer",
+    "MixinAbstractInventoryScreen"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
